@@ -1,0 +1,30 @@
+# Local datasets and downloaded archives
+data/
+datasets/
+*.csv
+*.parquet
+*.zip
+*.arff
+
+# Generated Evidently reports and workspace state
+data_drift_report.*
+data_drift_suite.*
+workspace/
+datascientest-workspace/
+reports/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
